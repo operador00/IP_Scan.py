@@ -1,11 +1,14 @@
 """
 Este código em Python utiliza a biblioteca socket para realizar um scan de IP e porta na sua rede local. Ele define duas funções: ip_scan e main.
 
-A função ip_scan aceita dois argumentos: ip_range e port_range. Ela itera sobre os endereços IP e as portas informadas, criando um socket para cada combinação de endereço IP e porta. A função connect_ex é usada para verificar se o host e a porta estão ativos ou inativos. Os resultados são exibidos na tela como um print.
+A função ip_scan aceita dois argumentos: ip_range e port_range. Ela itera sobre os endereços IP e as portas informadas,
+criando um socket para cada combinação de endereço IP e porta. A função connect_ex é usada para verificar se o host e a porta estão ativos ou inativos. Os resultados são exibidos na tela como um print.
 
-A função main obtém o endereço IP da máquina local e gera a faixa de IPs na sua rede local. Em seguida, chama a função ip_scan com a faixa de IPs e uma lista de portas a serem verificadas.
+A função main obtém o endereço IP da máquina local e gera a faixa de IPs na sua rede local. Em seguida, 
+chama a função ip_scan com a faixa de IPs e uma lista de portas a serem verificadas.
 
-O código é executado ao final com a verificação if __name__ == '__main__'. Isso significa que o código será executado somente se ele for o arquivo principal e não se ele for importado como uma biblioteca em outro código.
+O código é executado ao final com a verificação if __name__ == '__main__'. Isso significa que o código será executado somente se ele for o arquivo 
+principal e não se ele for importado como uma biblioteca em outro código.
 """
 
 import socket
