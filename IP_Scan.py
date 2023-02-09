@@ -31,7 +31,7 @@ def ip_scan(ip_range, port_range):
             else:
                 print(f'O host {ip}:{port} está inativo')
             # Fechar o socket
-            sock.close()
+          
 
 # Função principal que gerencia o processo de scan
 def main():
